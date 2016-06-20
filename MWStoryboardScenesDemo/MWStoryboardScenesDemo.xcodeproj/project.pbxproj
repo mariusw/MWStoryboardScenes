@@ -7,22 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		95701E121D1831D900A34C15 /* MWStoryboards.m in Sources */ = {isa = PBXBuildFile; fileRef = 95701E111D1831D900A34C15 /* MWStoryboards.m */; };
 		95DBEF651D129C830025584F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DBEF641D129C830025584F /* AppDelegate.swift */; };
 		95DBEF6C1D129C830025584F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95DBEF6B1D129C830025584F /* Assets.xcassets */; };
 		95DBEF6F1D129C830025584F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95DBEF6D1D129C830025584F /* LaunchScreen.storyboard */; };
 		95DBEF7A1D129C830025584F /* MWStoryboardScenesDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DBEF791D129C830025584F /* MWStoryboardScenesDemoTests.swift */; };
 		95DBEF851D129C830025584F /* MWStoryboardScenesDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DBEF841D129C830025584F /* MWStoryboardScenesDemoUITests.swift */; };
-		95DBEF981D129CD40025584F /* Page1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DBEF941D129CD40025584F /* Page1ViewController.swift */; };
-		95DBEF991D129CD40025584F /* Page2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DBEF951D129CD40025584F /* Page2ViewController.swift */; };
-		95DBEF9A1D129CD40025584F /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95DBEF961D129CD40025584F /* MainStoryboard_iPhone.storyboard */; };
-		95DBEF9B1D129CD40025584F /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95DBEF971D129CD40025584F /* MainStoryboard_iPad.storyboard */; };
-		95DBEFA41D129CE20025584F /* MWObjcPage1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95DBEF9F1D129CE20025584F /* MWObjcPage1ViewController.m */; };
-		95DBEFA51D129CE20025584F /* MWObjcPage2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95DBEFA11D129CE20025584F /* MWObjcPage2ViewController.m */; };
-		95DBEFA61D129CE20025584F /* ObjcStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95DBEFA21D129CE20025584F /* ObjcStoryboard_iPhone.storyboard */; };
-		95DBEFA71D129CE20025584F /* ObjcStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95DBEFA31D129CE20025584F /* ObjcStoryboard_iPad.storyboard */; };
 		95DBEFA91D129F9F0025584F /* MWStoryboardScenes.py in Resources */ = {isa = PBXBuildFile; fileRef = 95DBEFA81D129F9F0025584F /* MWStoryboardScenes.py */; };
-		95DBEFAC1D12AB610025584F /* Storyboards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DBEFAB1D12AB610025584F /* Storyboards.swift */; };
-		95DBEFAF1D12AD980025584F /* MWStoryboards.m in Sources */ = {isa = PBXBuildFile; fileRef = 95DBEFAE1D12AD980025584F /* MWStoryboards.m */; };
+		F5FAC1CDF90953F3445A24A3 /* Page1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5FAC3803689998AC024682F /* Page1ViewController.swift */; };
+		F5FAC33C2F22222B69315012 /* Storyboards.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5FAC0B514DE9CF1CDD0913B /* Storyboards.swift */; };
+		F5FAC375CC57B06734635738 /* ObjcStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5FACD6E7F7E89BDE220A3B4 /* ObjcStoryboard_iPhone.storyboard */; };
+		F5FACA079CB7A4E62C8825CF /* MWObjcPage2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5FAC3BCDAAB94436CD6729D /* MWObjcPage2ViewController.m */; };
+		F5FACAE3E06418743F2CD923 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5FAC5CDC2C1621A20559791 /* MainStoryboard_iPhone.storyboard */; };
+		F5FACC6863F2848DB3EF79F6 /* Page2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5FAC15A36BF2A11D69F8DB9 /* Page2ViewController.swift */; };
+		F5FACD1C0CAC4442BA4933F1 /* ObjcStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5FAC96EA1959C52D973FB18 /* ObjcStoryboard_iPad.storyboard */; };
+		F5FACD2263E33A1C05430E32 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5FACA36316831EE2575FBEE /* MainStoryboard_iPad.storyboard */; };
+		F5FACFF56D996C87E955F072 /* MWObjcPage1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5FAC9A47B3FFAA9302401A3 /* MWObjcPage1ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +43,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		95701E101D1831D900A34C15 /* MWStoryboards.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWStoryboards.h; sourceTree = "<group>"; };
+		95701E111D1831D900A34C15 /* MWStoryboards.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWStoryboards.m; sourceTree = "<group>"; };
 		95DBEF611D129C830025584F /* MWStoryboardScenesDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MWStoryboardScenesDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		95DBEF641D129C830025584F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		95DBEF6B1D129C830025584F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -54,22 +56,19 @@
 		95DBEF801D129C830025584F /* MWStoryboardScenesDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MWStoryboardScenesDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		95DBEF841D129C830025584F /* MWStoryboardScenesDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MWStoryboardScenesDemoUITests.swift; sourceTree = "<group>"; };
 		95DBEF861D129C830025584F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		95DBEF941D129CD40025584F /* Page1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Page1ViewController.swift; sourceTree = "<group>"; };
-		95DBEF951D129CD40025584F /* Page2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Page2ViewController.swift; sourceTree = "<group>"; };
-		95DBEF961D129CD40025584F /* MainStoryboard_iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
-		95DBEF971D129CD40025584F /* MainStoryboard_iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		95DBEF9C1D129CE10025584F /* MWStoryboardScenesDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MWStoryboardScenesDemo-Bridging-Header.h"; sourceTree = "<group>"; };
-		95DBEF9D1D129CE20025584F /* MSStoryboardScenesDemo-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MSStoryboardScenesDemo-Bridging-Header.h"; sourceTree = "<group>"; };
-		95DBEF9E1D129CE20025584F /* MWObjcPage1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWObjcPage1ViewController.h; sourceTree = "<group>"; };
-		95DBEF9F1D129CE20025584F /* MWObjcPage1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWObjcPage1ViewController.m; sourceTree = "<group>"; };
-		95DBEFA01D129CE20025584F /* MWObjcPage2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWObjcPage2ViewController.h; sourceTree = "<group>"; };
-		95DBEFA11D129CE20025584F /* MWObjcPage2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWObjcPage2ViewController.m; sourceTree = "<group>"; };
-		95DBEFA21D129CE20025584F /* ObjcStoryboard_iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ObjcStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
-		95DBEFA31D129CE20025584F /* ObjcStoryboard_iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ObjcStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		95DBEFA81D129F9F0025584F /* MWStoryboardScenes.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = MWStoryboardScenes.py; sourceTree = "<group>"; };
-		95DBEFAB1D12AB610025584F /* Storyboards.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Storyboards.swift; sourceTree = "<group>"; };
-		95DBEFAD1D12AD980025584F /* MWStoryboards.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWStoryboards.h; sourceTree = "<group>"; };
-		95DBEFAE1D12AD980025584F /* MWStoryboards.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWStoryboards.m; sourceTree = "<group>"; };
+		F5FAC0B514DE9CF1CDD0913B /* Storyboards.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Storyboards.swift; sourceTree = "<group>"; };
+		F5FAC15A36BF2A11D69F8DB9 /* Page2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Page2ViewController.swift; sourceTree = "<group>"; };
+		F5FAC3803689998AC024682F /* Page1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Page1ViewController.swift; sourceTree = "<group>"; };
+		F5FAC3BCDAAB94436CD6729D /* MWObjcPage2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWObjcPage2ViewController.m; sourceTree = "<group>"; };
+		F5FAC5CDC2C1621A20559791 /* MainStoryboard_iPhone.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		F5FAC78EABEEB2F62F8834A7 /* MWObjcPage2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWObjcPage2ViewController.h; sourceTree = "<group>"; };
+		F5FAC96EA1959C52D973FB18 /* ObjcStoryboard_iPad.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ObjcStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		F5FAC9A47B3FFAA9302401A3 /* MWObjcPage1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWObjcPage1ViewController.m; sourceTree = "<group>"; };
+		F5FACA36316831EE2575FBEE /* MainStoryboard_iPad.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		F5FACD1D5651BE81FB7F061B /* MWStoryboardScenesDemo-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MWStoryboardScenesDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		F5FACD6E7F7E89BDE220A3B4 /* ObjcStoryboard_iPhone.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ObjcStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		F5FACFC680999D76B1227C72 /* MWObjcPage1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWObjcPage1ViewController.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,13 +119,17 @@
 		95DBEF631D129C830025584F /* MWStoryboardScenesDemo */ = {
 			isa = PBXGroup;
 			children = (
-				95DBEF921D129CA70025584F /* Swift */,
-				95DBEF931D129CB20025584F /* Objective-C */,
 				95DBEF641D129C830025584F /* AppDelegate.swift */,
 				95DBEF6B1D129C830025584F /* Assets.xcassets */,
 				95DBEF6D1D129C830025584F /* LaunchScreen.storyboard */,
 				95DBEF701D129C830025584F /* Info.plist */,
 				95DBEFA81D129F9F0025584F /* MWStoryboardScenes.py */,
+				F5FACD1D5651BE81FB7F061B /* MWStoryboardScenesDemo-Bridging-Header.h */,
+				95701E101D1831D900A34C15 /* MWStoryboards.h */,
+				95701E111D1831D900A34C15 /* MWStoryboards.m */,
+				F5FAC0B514DE9CF1CDD0913B /* Storyboards.swift */,
+				F5FACDE20DA323D143785076 /* MainStoryboard */,
+				F5FACC12F8678190B1245023 /* ObjcStoryboard */,
 			);
 			path = MWStoryboardScenesDemo;
 			sourceTree = "<group>";
@@ -149,33 +152,28 @@
 			path = MWStoryboardScenesDemoUITests;
 			sourceTree = "<group>";
 		};
-		95DBEF921D129CA70025584F /* Swift */ = {
+		F5FACC12F8678190B1245023 /* ObjcStoryboard */ = {
 			isa = PBXGroup;
 			children = (
-				95DBEF941D129CD40025584F /* Page1ViewController.swift */,
-				95DBEF951D129CD40025584F /* Page2ViewController.swift */,
-				95DBEF961D129CD40025584F /* MainStoryboard_iPhone.storyboard */,
-				95DBEF971D129CD40025584F /* MainStoryboard_iPad.storyboard */,
-				95DBEFAB1D12AB610025584F /* Storyboards.swift */,
+				F5FACFC680999D76B1227C72 /* MWObjcPage1ViewController.h */,
+				F5FAC9A47B3FFAA9302401A3 /* MWObjcPage1ViewController.m */,
+				F5FAC78EABEEB2F62F8834A7 /* MWObjcPage2ViewController.h */,
+				F5FACD6E7F7E89BDE220A3B4 /* ObjcStoryboard_iPhone.storyboard */,
+				F5FAC3BCDAAB94436CD6729D /* MWObjcPage2ViewController.m */,
+				F5FAC96EA1959C52D973FB18 /* ObjcStoryboard_iPad.storyboard */,
 			);
-			name = Swift;
+			path = ObjcStoryboard;
 			sourceTree = "<group>";
 		};
-		95DBEF931D129CB20025584F /* Objective-C */ = {
+		F5FACDE20DA323D143785076 /* MainStoryboard */ = {
 			isa = PBXGroup;
 			children = (
-				95DBEF9D1D129CE20025584F /* MSStoryboardScenesDemo-Bridging-Header.h */,
-				95DBEF9E1D129CE20025584F /* MWObjcPage1ViewController.h */,
-				95DBEF9F1D129CE20025584F /* MWObjcPage1ViewController.m */,
-				95DBEFA01D129CE20025584F /* MWObjcPage2ViewController.h */,
-				95DBEFA11D129CE20025584F /* MWObjcPage2ViewController.m */,
-				95DBEFA21D129CE20025584F /* ObjcStoryboard_iPhone.storyboard */,
-				95DBEFA31D129CE20025584F /* ObjcStoryboard_iPad.storyboard */,
-				95DBEF9C1D129CE10025584F /* MWStoryboardScenesDemo-Bridging-Header.h */,
-				95DBEFAD1D12AD980025584F /* MWStoryboards.h */,
-				95DBEFAE1D12AD980025584F /* MWStoryboards.m */,
+				F5FAC3803689998AC024682F /* Page1ViewController.swift */,
+				F5FACA36316831EE2575FBEE /* MainStoryboard_iPad.storyboard */,
+				F5FAC15A36BF2A11D69F8DB9 /* Page2ViewController.swift */,
+				F5FAC5CDC2C1621A20559791 /* MainStoryboard_iPhone.storyboard */,
 			);
-			name = "Objective-C";
+			path = MainStoryboard;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -283,13 +281,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				95DBEFA61D129CE20025584F /* ObjcStoryboard_iPhone.storyboard in Resources */,
-				95DBEFA71D129CE20025584F /* ObjcStoryboard_iPad.storyboard in Resources */,
 				95DBEFA91D129F9F0025584F /* MWStoryboardScenes.py in Resources */,
 				95DBEF6F1D129C830025584F /* LaunchScreen.storyboard in Resources */,
 				95DBEF6C1D129C830025584F /* Assets.xcassets in Resources */,
-				95DBEF9A1D129CD40025584F /* MainStoryboard_iPhone.storyboard in Resources */,
-				95DBEF9B1D129CD40025584F /* MainStoryboard_iPad.storyboard in Resources */,
+				F5FACD2263E33A1C05430E32 /* MainStoryboard_iPad.storyboard in Resources */,
+				F5FACAE3E06418743F2CD923 /* MainStoryboard_iPhone.storyboard in Resources */,
+				F5FAC375CC57B06734635738 /* ObjcStoryboard_iPhone.storyboard in Resources */,
+				F5FACD1C0CAC4442BA4933F1 /* ObjcStoryboard_iPad.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -332,13 +330,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				95DBEFAC1D12AB610025584F /* Storyboards.swift in Sources */,
-				95DBEFAF1D12AD980025584F /* MWStoryboards.m in Sources */,
-				95DBEFA51D129CE20025584F /* MWObjcPage2ViewController.m in Sources */,
-				95DBEF981D129CD40025584F /* Page1ViewController.swift in Sources */,
-				95DBEFA41D129CE20025584F /* MWObjcPage1ViewController.m in Sources */,
-				95DBEF991D129CD40025584F /* Page2ViewController.swift in Sources */,
 				95DBEF651D129C830025584F /* AppDelegate.swift in Sources */,
+				F5FAC33C2F22222B69315012 /* Storyboards.swift in Sources */,
+				95701E121D1831D900A34C15 /* MWStoryboards.m in Sources */,
+				F5FAC1CDF90953F3445A24A3 /* Page1ViewController.swift in Sources */,
+				F5FACC6863F2848DB3EF79F6 /* Page2ViewController.swift in Sources */,
+				F5FACFF56D996C87E955F072 /* MWObjcPage1ViewController.m in Sources */,
+				F5FACA079CB7A4E62C8825CF /* MWObjcPage2ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -562,6 +560,7 @@
 				95DBEF8B1D129C830025584F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		95DBEF8C1D129C830025584F /* Build configuration list for PBXNativeTarget "MWStoryboardScenesDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -570,6 +569,7 @@
 				95DBEF8E1D129C830025584F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		95DBEF8F1D129C830025584F /* Build configuration list for PBXNativeTarget "MWStoryboardScenesDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -578,6 +578,7 @@
 				95DBEF911D129C830025584F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

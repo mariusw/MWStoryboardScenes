@@ -26,16 +26,16 @@ EXCLUDE_STORYBOARDS_OBJC = []
 
 if DEBUG:
     STORYBOARD_FILEPATHS = \
-        ["/Users/the/full/path/to/your/app/MainStoryboard_iPhone.storyboard",
-         "/Users/the/full/path/to/your/app/MainStoryboard_iPad.storyboard",
-         "/Users/the/full/path/to/your/app/ObjcStoryboard_iPhone.storyboard",
-         "/Users/the/full/path/to/your/app/ObjcStoryboard_iPad.storyboard"]
+        ["/Users/the/full/path/to/your/app/MainStoryboard/MainStoryboard_iPhone.storyboard",
+         "/Users/the/full/path/to/your/app/MainStoryboard/MainStoryboard_iPad.storyboard",
+         "/Users/the/full/path/to/your/app/ObjcStoryboard/ObjcStoryboard_iPhone.storyboard",
+         "/Users/the/full/path/to/your/app/ObjcStoryboard/ObjcStoryboard_iPad.storyboard"]
 else:
     STORYBOARD_FILEPATHS = \
-        [APP_ROOT_DIRECTORY + "/MWStoryboardScenesDemo/MainStoryboard_iPhone.storyboard",
-         APP_ROOT_DIRECTORY + "/MWStoryboardScenesDemo/MainStoryboard_iPad.storyboard",
-         APP_ROOT_DIRECTORY + "/MWStoryboardScenesDemo/ObjcStoryboard_iPhone.storyboard",
-         APP_ROOT_DIRECTORY + "/MWStoryboardScenesDemo/ObjcStoryboard_iPad.storyboard"]
+        [APP_ROOT_DIRECTORY + "/MWStoryboardScenesDemo/MainStoryboard/MainStoryboard_iPhone.storyboard",
+         APP_ROOT_DIRECTORY + "/MWStoryboardScenesDemo/MainStoryboard/MainStoryboard_iPad.storyboard",
+         APP_ROOT_DIRECTORY + "/MWStoryboardScenesDemo/ObjcStoryboard/ObjcStoryboard_iPhone.storyboard",
+         APP_ROOT_DIRECTORY + "/MWStoryboardScenesDemo/ObjcStoryboard/ObjcStoryboard_iPad.storyboard"]
 
 
 def process_storyboard(storyboard_file):
