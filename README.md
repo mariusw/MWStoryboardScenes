@@ -4,7 +4,7 @@ The meat of this project is the MWStoryboardScenes.py Python script that creates
 
 ## Installation
 
-Just put the MWStoryboardScenes file somewhere within your project, i.e. in a Scripts folder or Resources folder or whatever.
+Just put the MWStoryboardScenes.py file somewhere within your project, i.e. in a Scripts folder or Resources folder or whatever.
 
 ## Setup
 
@@ -20,6 +20,7 @@ You do this by adding a new Run Script to your Build Phases:
 
 Add two output files: 
 The Storyboards (no file extension) will be used for creating the Storyboards.swift file and the PREFIXStoryboards.h/.m files. You can of course name this file whatever you want.
+
 The ScriptHasRun.txt file in the derived dir is only a dummy file that makes sure that the script is always run. We had issues that xcode often did not detect necessary changes and didn't run the script on every build unless we had this...
 
 ## Generated code
@@ -122,6 +123,7 @@ Objective-C:
 ## Usage
 
 To use this in your other files, simply do this:
+
 Swift:
 ```swift
 let page2VC = Storyboards.instantiateSwiftPage2()
